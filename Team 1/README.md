@@ -26,21 +26,6 @@
         - [2.2.2 Tech Stack](#222-tech-stack)
         - [2.2.3 Workflow](#223-workflow)
 
----
-
-## 1. Use Case 1: Celonis Competitor Brand Analyst
-### 1.1 Problem Statement
-### 1.2 Solution
-#### 1.2.1 Links
-#### 1.2.2 Tech Stack
-#### 1.2.3 Workflow
-
-## 2. Use Case 2: Siteco Internal Knowledge Chatbot
-### 2.1 Problem Statement
-### 2.2 Solution
-#### 2.2.1 Links
-#### 2.2.2 Tech Stack
-#### 2.2.3 Workflow
 
 
 ## 1. Use Case 1: Celonis Compeptitor Brand Analyst
