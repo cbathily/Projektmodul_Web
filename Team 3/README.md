@@ -1,48 +1,48 @@
-# Projektmodul_Web: 
+# Project Module Web
 
 # Automated Glassdoor Review Response System
 
-![atolls Banner](./assets/atolls-banner.png)
+<p align="center">
+  <img src="./Screenshot%202025-12-23%20191016.png" width="800">
+</p>
 
-Ein **automatisiertes System zur intelligenten Beantwortung von Glassdoor-Bewertungen**, entwickelt für **atolls**, basierend auf **n8n**, **React** und **Next.js**.
+An **automated system for smartly responding to Glassdoor reviews**, developed for **atolls**, using **n8n**, **React**, and **Next.js**.
 
----
+<br/>
 
+## Project Overview
 
-## Projektübersicht
+This project automates the full process of **analyzing and responding to Glassdoor reviews**.  
+The goal is to help companies:
 
-Dieses Projekt automatisiert den gesamten Prozess der **Analyse und Beantwortung von Glassdoor-Reviews**.  
-Ziel ist es, Unternehmen dabei zu helfen:
+- respond quickly to new reviews  
+- create consistent and professional replies  
+- reduce manual HR and employer branding work  
 
-- schnell auf neue Bewertungen zu reagieren  
-- konsistente, professionelle Antworten zu generieren  
-- HR- und Employer-Branding-Prozesse zu entlasten  
+The system combines **workflow automation (n8n)** with a **modern web interface (Next.js / React)**.
 
-Das System kombiniert **Workflow-Automatisierung (n8n)** mit einer **modernen Web-Oberfläche (Next.js / React)**.
+<br/>
 
----
+## About Atolls
 
-## Über atolls
+Atolls is a company that operates several online platforms in the areas of **social commerce** and **affiliate marketing**.  
+Part of atolls are well-known services such as **mydealz**, **Shoop**, and **Cuponation**, which provides coupon and discount platforms for publishers.
 
-![atolls Logo](./assets/atolls-logo.png)
+<br/>
 
-**atolls** ist ein digitales Beratungs- und Technologieunternehmen, das sich auf **skalierbare Automatisierungslösungen**, **moderne Web-Plattformen** und **AI-gestützte Workflows** spezialisiert hat.
+## System Idea
 
----
+The system works fully automated:
 
-## Systemidee
+1. A new Glassdoor review is detected  
+2. The review is analyzed (sentiment, tone, content)  
+3. A suitable response is generated  
+4. The response can be approved automatically or manually  
+5. The response is published or sent to the HR team  
 
-Das System arbeitet vollständig automatisiert:
+<br/>
 
-1. Neue Glassdoor-Bewertung wird erkannt
-2. Bewertung wird analysiert (Sentiment, Ton, Inhalt)
-3. Eine passende Antwort wird generiert
-4. Antwort kann automatisch oder manuell freigegeben werden
-5. Veröffentlichung oder Übergabe an HR-Team
-
----
-
-##  Architektur
+## Architecture
 
 ```text
 Glassdoor Review
@@ -50,7 +50,7 @@ Glassdoor Review
      n8n
  (Trigger & Workflow)
        ↓
-Analyse & Antwort-Generierung
+Analysis & Response Generation
        ↓
  Next.js / React Frontend
        ↓
