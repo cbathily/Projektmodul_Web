@@ -25,6 +25,7 @@
         - [2.2.1 Links](#221-links)
         - [2.2.2 Tech Stack](#222-tech-stack)
         - [2.2.3 Workflow](#223-workflow)
+    - [2.3 How to run the prototype](#22-solution)
 
 
 
@@ -78,12 +79,28 @@ On top each page features a direct comparison with Celonis based on some of this
 ### 2.1 PROBLEM STATEMENT:
 
 ##### WE NEED:
-"..."
+"... an internal knowledge base in form of an AI Chatbot"
+"... a Dashboard with an Chatbot based on their intranet including a preview function and the possibility to download the PDF, if needed”
+
 
 ### 2.2 SOLUTION:
 
 #### 2.2.1 LINKS:
-
+- Figma Board: https://www.figma.com/design/5MFaq1eNdoij6Lr4tt3e1F/SITECO--AI-Agent?node-id=0-1&t=9dou3EDlqXHEj8LB-1
+  
 #### 2.2.2 TECH STACK:
 
 #### 2.2.3 WORKFLOW:
+
+### 2.3 How to run the prototype
+**Diaclaimer:*
+Due to the NDA, the prototype cannot be tested with Siteco internal data.
+To test the chatbot, please follow the steps below.
+
+- add a local folder in your docker (path: /data/pdfs); there you can add your test-data for the chatbot (also see the changed "docker-compose.yml" and the folder "docker_config")
+- you need a supabase credential. in your supabase project you need the tables documented in the folder "Supabase Doku" (documents, pdf_tracking and n8n_chat_histories)
+- the n8n workflow needs following credentials: supabase, openai api key, a mail client of your choice
+- initialize the frontend with "npm install"
+- to run the frontend start it with "npm run dev"
+- Additionally, the webhooks "database update" and "FAQ summary mail" can be triggered using the file "control-panel-small.html", so the automations do not have to be executed directly in n8n
+  
