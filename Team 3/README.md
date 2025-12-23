@@ -7,7 +7,6 @@
 Ein **automatisiertes System zur intelligenten Beantwortung von Glassdoor-Bewertungen**, entwickelt für **atolls**, basierend auf **n8n**, **React** und **Next.js**.
 
 ---
-<hr style="border: none; border-top: 1px solid #eaeaea;" />
 
 
 ## Projektübersicht
