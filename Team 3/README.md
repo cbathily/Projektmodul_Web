@@ -1,4 +1,5 @@
 # Project Module Web
+Team Members: Alisa Vranic, Coumba Bathily, Katharina Vaan den Bergh, Nuria Kurrle
 
 # Automated Glassdoor Review Response System
 
