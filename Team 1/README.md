@@ -93,7 +93,7 @@ On top each page features a direct comparison with Celonis based on some of this
 #### 2.2.3 WORKFLOW:
 
 ### 2.3 How to run the prototype
-**Diaclaimer:*
+**Diaclaimer:**
 Due to the NDA, the prototype cannot be tested with Siteco internal data.
 To test the chatbot, please follow the steps below.
 
